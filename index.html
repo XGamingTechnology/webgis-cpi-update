@@ -56,7 +56,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-7.340131468656483,115.86172523027523],[-3.722432119273476,122.7898458670061]]);
+        }).fitBounds([[-5.895123524377953,117.83707379374327],[-4.687095597167966,120.14523453983284]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -562,6 +562,13 @@
         function style_zonasi_RZWP3K_11_0() {
             return {
                 pane: 'pane_zonasi_RZWP3K_11',
+                opacity: 1,
+                color: 'rgba(227,26,28,1.0)',
+                dashArray: '',
+                lineCap: 'round',
+                lineJoin: 'round',
+                weight: 7.0,
+                fillOpacity: 0,
                 interactive: true,
             }
         }
